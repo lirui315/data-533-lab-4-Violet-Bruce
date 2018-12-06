@@ -21,11 +21,18 @@ class TestAge(unittest.TestCase):
     
     def test_age(self):    
         
-        self.assertMultiLineEqual(a.age("1996-3-15"),"The age of the person is 22 and 271 days")
-        self.assertMultiLineEqual(a.age("1959-3-12"),"The age of the person is 59 and 284 days")
-        self.assertMultiLineEqual(a.age("1932-1-1"),"The age of the person is 86 and 361 days")
-        self.assertMultiLineEqual(a.age("1962-02-02"),"The age of the person is 56 and 321 days")
-        self.assertMultiLineEqual(a.age("1976-07-06"),"The age of the person is 42 and 163 days")
+        self.assertMultiLineEqual(a.age("1996-3-15"),"The age of the person is 22 years")
+        self.assertMultiLineEqual(a.age("1959-3-12"),"The age of the person is 59 years")
+        self.assertMultiLineEqual(a.age("1932-1-1"),"The age of the person is 86 years")
+        self.assertMultiLineEqual(a.age("1962-02-02"),"The age of the person is 56 years")
+        self.assertMultiLineEqual(a.age("1976-07-06"),"The age of the person is 42 years")
+        self.assertMultiLineEqual(a.age("what"),"error in input")
+        self.assertMultiLineEqual(a.age("1976-07-06"),"The age of the person is 42 years")
+        
+
+
+
+        
     
     def tearDown(self):
         print("Tear Down")
