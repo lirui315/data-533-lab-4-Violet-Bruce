@@ -11,7 +11,7 @@ from padaku.birth import birthdate
 # In[4]:
 
 
-class TestBirthdateYear(unittest.TestCase):
+class TestBirthdate(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print('setupClass')
