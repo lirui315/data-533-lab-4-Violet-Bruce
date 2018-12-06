@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[2]:
+
+
+
+
+# In[4]:
+
+
+import unittest
+import TestBirthdate as b
+import TestNumber as N
+
+
+
+def my_suite():
+    suite = unittest.TestSuite()
+    result = unittest.TestResult()
+    suite.addTest(unittest.makeSuite(b.TestBirthdate))
+    suite.addTest(unittest.makeSuite(N.TestNumber))
+    runner = unittest.TextTestRunner()
+    print(runner.run(suite))
+my_suite()
+
+
+# In[ ]:
+
+
+
+
