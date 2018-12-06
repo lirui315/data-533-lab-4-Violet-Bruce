@@ -12,7 +12,8 @@
 import unittest
 import TestBirthdate as b
 import TestNumber as N
-
+import testsuite.unittests.Agetest as a
+import testsuite.unittests.Nametest as n
 
 
 def my_suite():
@@ -20,6 +21,8 @@ def my_suite():
     result = unittest.TestResult()
     suite.addTest(unittest.makeSuite(b.TestBirthdate))
     suite.addTest(unittest.makeSuite(N.TestNumber))
+    suite.addTest(unittest.makeSuite(a.TestAge))
+    suite.addTest(unittest.makeSuite(n.TestName))
     runner = unittest.TextTestRunner()
     print(runner.run(suite))
 my_suite()
