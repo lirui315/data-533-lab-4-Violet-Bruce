@@ -3,6 +3,5 @@ python:
   - "3.4"
   - "3.5"
 script:
-  - python TestBirthdateMonth.py
-  - python TestBirthdateYear.py
+  - python TestBirthdate.py
   - python TestNumber.py
