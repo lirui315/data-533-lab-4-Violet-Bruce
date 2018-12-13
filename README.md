@@ -5,7 +5,7 @@
 ***
 [![Build Status](https://travis-ci.org/lirui315/data-533-lab-4-Violet-Bruce.svg?branch=master)](https://travis-ci.org/lirui315/data-533-lab-4-Violet-Bruce)
 
-## 100% coverage has achieved on all of our four function. ` `, ` `, and ` ` 3 functions with 2 try-except each on this package `padaku`, 
+## 100% coverage has achieved on all of our four function. `birth`, `month`, and `nanur` 3 functions with 2 try-except each on this package called `padaku`, 
 
 as the functions are producing graphs for different ranges of numeric values in the data using if-else statements. But the test datasets used to cover all these conditions(especially two extremes) could not be found. The data satisfying each of the conditions can be simulated but it is a time-consuming process.
 
