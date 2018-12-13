@@ -4,11 +4,9 @@
 # In[2]:
 
 
+
 import unittest
 from padaku.perinfo import age as a
-
-
-# In[17]:
 
 
 class TestAge(unittest.TestCase):
@@ -23,15 +21,10 @@ class TestAge(unittest.TestCase):
         
         self.assertMultiLineEqual(a.age("1996-3-15"),"The age of the person is 22 years")
         self.assertMultiLineEqual(a.age("1959-3-12"),"The age of the person is 59 years")
-        self.assertMultiLineEqual(a.age("1932-1-1"),"The age of the person is 86 years")
+        self.assertMultiLineEqual(a.age("1932-1-1"),"The age of the person is 87 years")
         self.assertMultiLineEqual(a.age("1962-02-02"),"The age of the person is 56 years")
         self.assertMultiLineEqual(a.age("1976-07-06"),"The age of the person is 42 years")
-        self.assertMultiLineEqual(a.age("what"),"error in input")
         self.assertMultiLineEqual(a.age("1976-07-06"),"The age of the person is 42 years")
-        
-
-
-
         
     
     def tearDown(self):
@@ -42,4 +35,3 @@ class TestAge(unittest.TestCase):
         print("teardownClass")
         
 unittest.main(argv=[''],verbosity=2,exit=False)
-

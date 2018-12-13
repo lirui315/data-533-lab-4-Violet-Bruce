@@ -12,8 +12,8 @@
 import unittest
 import TestBirthdate as b
 import TestNumber as N
-import testsuite.unittests.Agetest as a
-import testsuite.unittests.Nametest as n
+import Agetest as a
+import Nametest as n
 
 
 def my_suite():
