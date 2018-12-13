@@ -5,8 +5,7 @@
 ***
 [![Build Status](https://travis-ci.org/lirui315/data-533-lab-4-Violet-Bruce.svg?branch=master)](https://travis-ci.org/lirui315/data-533-lab-4-Violet-Bruce)
 
-## 100% coverage has achieved on all of our four function. `birth`, `month`, and `nanur` 3 functions with 2 try-except each on this package called `padaku`, 
-
+## 100% coverage has achieved on all of our four functions. `birth`, `month`, and `nanur` 3 functions with 2 try-except each on this package called `padaku`, 
 
 ## The main package 
 ***
